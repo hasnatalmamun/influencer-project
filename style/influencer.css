@@ -45,9 +45,10 @@ nav h2 {
     display: flex;
 }
 
-.header-contain{
+.header-contain {
     margin-left: 120px;
 }
+
 .btn-1 {
     border: 0;
     border-radius: 41px;
@@ -70,7 +71,7 @@ nav h2 {
     font-weight: 700;
 }
 
-.header-img{
+.header-img {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     padding: 10px;
@@ -78,7 +79,7 @@ nav h2 {
 
 /* sponsor style */
 
-.sponsor-img-container{
+.sponsor-img-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -95,7 +96,8 @@ nav h2 {
     padding-bottom: 30px;
     padding-top: 100px;
 }
-.collection-card-container{
+
+.collection-card-container {
     text-align: center;
     max-width: 1048px;
     display: flex;
@@ -105,7 +107,8 @@ nav h2 {
     margin: 0 auto;
     gap: 30px;
 }
-.collection-card{
+
+.collection-card {
     width: 329px;
     height: 476px;
     background-color: white;
@@ -114,7 +117,7 @@ nav h2 {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
-.card-img{
+.card-img {
     padding: 17px 15px 16px 14px;
 }
 
@@ -141,4 +144,65 @@ nav h2 {
     text-align: left;
     padding-left: 14px;
 
+}
+
+/* <!-- Featured products section --> */
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.feature-content {
+    padding-left: 100px;
+}
+
+.feature-content h2 {
+    color: #0A0826;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feature-content p {
+    width: 501px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 270px;
+}
+
+.featured-img {
+    border-radius: 7px;
+    width: 404px;
+    margin-left: 300px;
+}
+
+.btn-2 {
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* footer section */
+
+.footer-container{
+    text-align: center;
+    padding: 50px 0;
+    background: #0A0826;
+}
+
+.footer-container h3, p{
+    color: white;
+}
+.social-icon{
+    height: 32px;
+    width: 32px;
+    background: #0A0826;
+    border-radius: 50%;
 }
